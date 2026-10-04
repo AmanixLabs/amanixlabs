@@ -2,22 +2,28 @@
 
 Owner key: **Aman** · **Claude** · **both**
 
-Live dashboard: _not created yet_
+Live dashboard: https://claude.ai/artifact/B45NhPtYJJTgwZy4Hg22UC
 
 ## Repo & infra
 - [x] Scaffold Next.js 16 + Tailwind 4 site — Claude
 - [x] Landing page v1 (hero, products, principles, founder, contact) — Claude
 - [x] SEO basics: metadata, sitemap, robots — Claude
-- [ ] Create GitHub org `amanixlabs` (web form) — Aman
-- [ ] Create repo under the org and push — Claude
-- [ ] Transfer goalzen, neelghuri, site-check into the org — Claude
-- [ ] Vercel project + custom domain amanixlabs.com — both
-- [ ] DNS at registrar → Vercel — Aman
+- [x] Create GitHub org `AmanixLabs` — Aman
+- [x] Create `AmanixLabs/amanixlabs` and push — both
+- [x] Transfer goalzen, neelghuri, site-check, nest-marks, plan repo into the org — Claude
+- [x] Create Vercel project `amanixlabs` — Claude
+- [ ] First production deploy (`vercel --prod` in this folder, or push once the GitHub app is installed) — Aman
+- [ ] Install the Vercel GitHub app on the AmanixLabs org so pushes deploy — Aman
+- [ ] Reconnect Git in the Vercel projects for goalzen, neelghuri, site-check after the transfer — both
+- [x] Add amanixlabs.com + www redirect to the Vercel project — Claude
+- [ ] DNS at Cloudflare: `A @ 76.76.21.21`, `CNAME www cname.vercel-dns.com`, proxy off — Aman
 
 ## Content
 - [ ] Confirm product taglines/descriptions in `lib/products.ts` — Aman
-- [ ] Founder paragraph: edit to taste — Aman
-- [ ] Decide contact email (hello@amanixlabs.com) and set up mailbox — Aman
+- [ ] Decide spelling: SiteCheck (repo) or SiteChek — Aman
+- [ ] Confirm status badges (GoalZen and NestMarks shown as Beta) — Aman
+- [x] Founder paragraph: Aman Ullah — Aman
+- [ ] Set up hello@amanixlabs.com mailbox — Aman
 - [ ] OG image (1200×630) in `public/og.png` — Claude
 - [ ] Favicon + logo SVG in `public/` and `brand/` — Claude
 
@@ -27,6 +33,6 @@ Live dashboard: _not created yet_
 - [ ] Cookie-free analytics (Plausible) — Claude
 
 ## Later
-- [ ] Per-product pages (`/goalzen`, `/nestmarks`, `/sitechek`, `/neelghuri`) — Claude
-- [ ] Changelog / letters section — both
+- [ ] Per-product pages (`/goalzen`, `/nestmarks`, `/sitecheck`, `/neelghuri`) — Claude
+- [ ] Changelog / yearly letters section — both
 - [ ] Studio status page link — Claude
