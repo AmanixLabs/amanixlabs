@@ -228,12 +228,12 @@ function Founder() {
             Founder
           </p>
           <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-            Built by Amanullah.
+            Built by Aman Ullah.
           </h2>
         </div>
         <div className="space-y-5 text-[17px] leading-relaxed text-muted">
           <p>
-            Amanix Labs is founded and run by Amanullah, a software engineer
+            Amanix Labs is founded and run by Aman Ullah, a software engineer
             based in Bangladesh. The studio exists to build the products he
             kept wishing someone else would make, and to keep them alive long
             enough to matter.

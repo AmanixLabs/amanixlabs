@@ -8,36 +8,38 @@ export type Product = {
   market: "Global" | "Bangladesh";
   status: ProductStatus;
   url?: string;
-  accent: string; // tailwind color token used for the card glow
+  accent: string; // per-product glow colour used on the card
 };
 
 export const products: Product[] = [
   {
     slug: "goalzen",
     name: "GoalZen",
-    tagline: "Goals that actually get finished.",
+    tagline: "Turn a goal into a path you can follow today.",
     description:
-      "A calm goal and habit tracker for people who are tired of productivity apps that nag. Web and mobile, built around focus instead of streak anxiety.",
+      "Goals, tasks, routines and a Finish Mode that keeps you on one thing until it is done. Web app, Android app and a Chrome new-tab extension, with NestMarks built in as your resource library.",
     market: "Global",
-    status: "building",
+    status: "beta",
+    url: "https://goalzen.app",
     accent: "#7cf3c4",
   },
   {
     slug: "nestmarks",
     name: "NestMarks",
-    tagline: "A home for everything you meant to read.",
+    tagline: "A private home for the links you want to keep.",
     description:
-      "Bookmarks, highlights and notes that stay organised without a filing system. Save from anywhere, find it again in seconds.",
+      "A bookmark manager built for finding things again: full-text search, nested collections, dead-link checks and AI tidy-ups you approve as a diff. Use the managed service or self-host it.",
     market: "Global",
-    status: "building",
+    status: "beta",
+    url: "https://nestmarks.com",
     accent: "#ffb86b",
   },
   {
-    slug: "sitechek",
-    name: "SiteChek",
-    tagline: "Know your site is healthy before your users do.",
+    slug: "sitecheck",
+    name: "SiteCheck",
+    tagline: "Know your site is down before your users do.",
     description:
-      "Uptime, performance, SEO and accessibility checks in one report. Built for indie makers and small teams who cannot afford an ops department.",
+      "Website and heartbeat monitoring with on-call alerting, built for small teams who want PagerDuty-grade reliability without the enterprise price tag.",
     market: "Global",
     status: "building",
     accent: "#8ab4ff",
@@ -45,9 +47,9 @@ export const products: Product[] = [
   {
     slug: "neelghuri",
     name: "NeelGhuri",
-    tagline: "Thoughtful toys for curious kids in Bangladesh.",
+    tagline: "Toys and everyday things for kids in Bangladesh.",
     description:
-      "An online store for safe, well-made toys and learning kits, delivered across Bangladesh. Curated for play that lasts longer than the box.",
+      "An online store for children's toys and daily essentials, with a Bengali storefront, bKash and cash on delivery, and delivery across Bangladesh.",
     market: "Bangladesh",
     status: "building",
     url: "https://neelghuri.com",
