@@ -8,6 +8,8 @@ Live dashboard: https://claude.ai/artifact/B45NhPtYJJTgwZy4Hg22UC
 - [x] Scaffold Next.js 16 + Tailwind 4 site — Claude
 - [x] Landing page v1 (hero, products, principles, founder, contact) — Claude
 - [x] SEO basics: metadata, sitemap, robots — Claude
+- [x] Services section: web, mobile, AI, data — Claude
+- [ ] Redeploy after the Services section (`vercel --prod --yes`) — Aman
 - [x] Create GitHub org `AmanixLabs` — Aman
 - [x] Create `AmanixLabs/amanixlabs` and push — both
 - [x] Transfer goalzen, neelghuri, site-check, nest-marks, plan repo into the org — Claude
