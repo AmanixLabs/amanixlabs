@@ -7,7 +7,7 @@ const principles = [
   },
   {
     title: "Own the stack",
-    body: "We design, build, host and support our own products. No agency work, no feature factories.",
+    body: "We design, build, host and support our own products, and bring that same end-to-end care to a few client projects each year.",
   },
   {
     title: "Earn trust slowly",
@@ -19,6 +19,29 @@ const principles = [
   },
 ];
 
+const services = [
+  {
+    title: "Web applications",
+    body: "Product-grade web apps and marketing sites: fast, accessible, and built to be maintained for years rather than rebuilt next quarter.",
+    stack: "React · Next.js · Astro · Node · Express · Go",
+  },
+  {
+    title: "Mobile apps",
+    body: "Cross-platform iOS and Android apps that share one codebase with your web product and feel native on both.",
+    stack: "Flutter · React Native · Expo · Supabase",
+  },
+  {
+    title: "AI features",
+    body: "Practical AI inside real products: assistants, document understanding, search and automation, with the model choice and guardrails that fit your data.",
+    stack: "Claude · OpenAI · Ollama · RAG · evaluation",
+  },
+  {
+    title: "Data and infrastructure",
+    body: "Schemas, APIs and deployments that hold up under growth, with the monitoring to know when they don't.",
+    stack: "PostgreSQL · MongoDB · Prisma · Redis · Vercel · Docker",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -26,6 +49,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Products />
+        <Services />
         <Principles />
         <Founder />
         <Contact />
@@ -48,6 +72,9 @@ function Header() {
         <nav className="hidden items-center gap-7 text-sm text-muted sm:flex">
           <a href="#products" className="hover:text-foreground">
             Products
+          </a>
+          <a href="#services" className="hover:text-foreground">
+            Services
           </a>
           <a href="#principles" className="hover:text-foreground">
             Principles
@@ -192,6 +219,43 @@ function ProductCard({ product }: { product: Product }) {
   );
 }
 
+function Services() {
+  return (
+    <section id="services" className="border-t border-border/60">
+      <div className="mx-auto max-w-6xl px-5 py-24">
+        <SectionHead
+          eyebrow="Services"
+          title="We also build for others."
+          body="The same team and stack behind our products, available for a small number of client engagements each year: web, mobile and AI, from first sketch to production."
+        />
+        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+          {services.map((s) => (
+            <div
+              key={s.title}
+              className="flex flex-col rounded-2xl border border-border bg-surface p-7"
+            >
+              <h3 className="text-xl font-semibold tracking-tight">
+                {s.title}
+              </h3>
+              <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted">
+                {s.body}
+              </p>
+              <p className="mt-6 font-mono text-xs text-muted">{s.stack}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-8 text-sm text-muted">
+          Have a project in mind?{" "}
+          <a href="#contact" className="text-accent hover:underline">
+            Tell us about it
+          </a>
+          .
+        </p>
+      </div>
+    </section>
+  );
+}
+
 function Principles() {
   return (
     <section id="principles" className="border-t border-border/60 bg-surface/40">
@@ -258,8 +322,9 @@ function Contact() {
             Say hello.
           </h2>
           <p className="mt-4 max-w-xl text-lg text-muted">
-            Partnerships, press, a bug you found, or you just want to talk
-            about one of the products. One inbox, read by a human.
+            A project you want built, a partnership, press, a bug you found,
+            or you just want to talk about one of the products. One inbox,
+            read by a human.
           </p>
           <a
             href="mailto:hello@amanixlabs.com"

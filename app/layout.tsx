@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s · Amanix Labs",
   },
   description:
-    "Amanix Labs is an independent product studio building focused software for the world and a children's store for Bangladesh: GoalZen, NestMarks, SiteChek and NeelGhuri.",
+    "Amanix Labs is an independent product studio building GoalZen, NestMarks, SiteCheck and NeelGhuri, and taking on select web, mobile and AI development work.",
   openGraph: {
     type: "website",
     url: siteUrl,
