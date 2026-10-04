@@ -12,7 +12,7 @@ Live dashboard: https://claude.ai/artifact/B45NhPtYJJTgwZy4Hg22UC
 - [x] Create `AmanixLabs/amanixlabs` and push — both
 - [x] Transfer goalzen, neelghuri, site-check, nest-marks, plan repo into the org — Claude
 - [x] Create Vercel project `amanixlabs` — Claude
-- [ ] First production deploy (`vercel --prod` in this folder, or push once the GitHub app is installed) — Aman
+- [x] First production deploy (aliased to amanixlabs.com, waiting on DNS) — Aman
 - [ ] Install the Vercel GitHub app on the AmanixLabs org so pushes deploy — Aman
 - [ ] Reconnect Git in the Vercel projects for goalzen, neelghuri, site-check after the transfer — both
 - [x] Add amanixlabs.com + www redirect to the Vercel project — Claude
