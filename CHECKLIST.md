@@ -9,13 +9,14 @@ Live dashboard: https://claude.ai/artifact/B45NhPtYJJTgwZy4Hg22UC
 - [x] Landing page v1 (hero, products, principles, founder, contact) — Claude
 - [x] SEO basics: metadata, sitemap, robots — Claude
 - [x] Services section: web, mobile, AI, data — Claude
-- [ ] Redeploy after the Services section (`vercel --prod --yes`) — Aman
+- [x] Connect the Vercel project to the GitHub repo (pushes to `main` deploy) — Claude
+- [x] Link iamanullah.com from the Founder section — Claude
 - [x] Create GitHub org `AmanixLabs` — Aman
 - [x] Create `AmanixLabs/amanixlabs` and push — both
 - [x] Transfer goalzen, neelghuri, site-check, nest-marks, plan repo into the org — Claude
 - [x] Create Vercel project `amanixlabs` — Claude
 - [x] First production deploy (aliased to amanixlabs.com, waiting on DNS) — Aman
-- [ ] Install the Vercel GitHub app on the AmanixLabs org so pushes deploy — Aman
+- [x] Install the Vercel GitHub app on the AmanixLabs org so pushes deploy — Aman
 - [ ] Reconnect Git in the Vercel projects for goalzen, neelghuri, site-check after the transfer — both
 - [x] Add amanixlabs.com + www redirect to the Vercel project — Claude
 - [ ] DNS at Cloudflare: `A @ 76.76.21.21`, `CNAME www cname.vercel-dns.com`, proxy off — Aman

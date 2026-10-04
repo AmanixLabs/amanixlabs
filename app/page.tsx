@@ -307,6 +307,16 @@ function Founder() {
             collaborators. It will grow when the products demand it, not
             before.
           </p>
+          <p className="font-mono text-sm">
+            <a
+              href="https://iamanullah.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-accent hover:underline"
+            >
+              More about Aman at iamanullah.com →
+            </a>
+          </p>
         </div>
       </div>
     </section>
