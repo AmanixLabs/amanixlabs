@@ -22,3 +22,5 @@ pnpm dev
 Content lives in [`lib/products.ts`](lib/products.ts) and
 [`app/page.tsx`](app/page.tsx). Design tokens are in
 [`app/globals.css`](app/globals.css).
+
+> **Deploying?** Vercel auto-deploy is currently broken for every AmanixLabs-org repo (Hobby plan + private org repo). See `../VERCEL_MANUAL_DEPLOY.md` for the manual deploy command.
